@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.box-cima{
+    background-color: black;
+    width: 100%;
+    height: 8%;
+    float: right;
+    text-align: right;
+    color: cornsilk;
+    padding: 5px;
+    letter-spacing: 1px;
+    min-height: 31px;
+    max-height: 25px;
+    
+    
+}
+
+
+
+
+    .zap{
+        text-decoration: none;
+        color: white;
+    }
+    
+
+    
+    .menu{
+        background-color: black;
+        text-align: right;
+        width: 100%;
+        height: 4%;
+        text-decoration: none;
+        color: white;
+        padding: 4px;
+        letter-spacing: .7px;
+        margin-top: 12px;
+        min-height: 4%;
+          }
+        
+    
+    .branco{
+        text-decoration: none;
+        color: rgb(80, 243, 255);
+        font-style: italic;
+        
+    }
+    
+    .p_imagem{
+        /**estava com 100% o height porem coloquei auto para completar até a parte que eu quero**/
+        
+        width: 100%; 
+        background-color: rgb(196, 211, 212);
+        
+    }
+    
+    .nome{
+        text-align: center;
+        font-size: larger;
+        font-size: 1cm;
+        color: tomato;
+        
+        
+    }
+    
+    
+    .box-t {
+        height: 6   0%;
+        width: 33%;
+        display: inline-block;
+        padding: 2.5%;
+        margin-top: 2.5%;
+        background-color: rgba(106, 109, 141, 0.7); /* Cor da trilogia*/
+        cursor: auto;
+    }
+    
+    .box-t p{
+        color: whitesmoke;
+        
+        
+    }
+    
+    .h1-tri{
+        background-color: red;
+        border: 4px solid blue;
+    }
+    .p-tri{
+            border: 1.5px dashed black;
+            padding: 5px;
+            margin: 1%;
+    
+    }
+    
+
+    .h2-segpart{
+            
+            color: black;
+            text-decoration:none;
+            
+        }
+    
+    @media screen and (max-width: 1280px){
+        .box-t{
+            width:100%;
+            min-width: 50%;
+        }
+    }
+    
+    .arrow{
+        position: relative;
+        top: 36px;
+        left: 50%;
+        margin-left: 10px;
+        width: 35px;
+        height: 35px;
+        background-image: url('Imagem/arrow.png');
+        background-size: 100% 100%;
+    }
+    
+    .image-aurora{
+        background-color: rgb(193, 216, 218)/* Cor do curriculo*/
+        
+    }
+    
+    .linha_fim_trilo{
+        border-top: 4px solid #888888;
+        padding: 20px 0;
+        clear: both;
+        text-align: center;
+        color: #888;
+    }
+    
+    .h1-segpart{
+        border: outset  ;
+        color: black;
+        text-decoration:none;
+        
+    }
+
+    .formacao-academia{
+        text-align: center;
+        
+    }
+    
+    .germinare{
+    border: ridge ;
+    }
+    
+    .autonomo{
+    border: ridge ;
+    }
+    
+    .idioma{
+        text-align: center;
+        font-size: 25px;
+        padding: 20px;
+        margin-left: 28%;
+        
+    }
+
+ 
+
+
+    .cor_idioma{
+        color: red;
+        
+    }
+    
+    .certificacoes{
+        margin-top: -30px;
+    }
+    
+    .container-list{
+        padding: 30px;
+        list-style-position: inside;
+        margin-left: 0px;
+    }
+    
+    .contato{
+        border-top: 4px solid #888888;
+        padding: 20px 0;
+        clear: both;
+        
+        
+            
+    }
+    
+    .sobre{
+        text-align: center;
+        float: left;
+        width: 50%;
+        height: 40%;
+        min-height: 233px;
+        margin-top: -40px;
+        background-color: rgb(106, 247, 101);/* Cor dos atendimentos*/
+        padding: 40px 0;
+        border: solid;
+    }
+    
+    .sac{
+        text-align: center;
+        float: right;
+        width: 50%;
+        height: 40%;
+        min-height: 233px;
+        margin-top: -40px;
+        background-color: rgb(106, 247, 101);/* Cor dos atendimentos*/
+        text-align: center;
+        padding: 48px 0;
+        border: solid;
+    }
+    
+    @media screen and (max-width: 760px){
+        .sobre{
+            width:100%;
+            height: 50%;
+        }
+    }
+    
+    @media screen and (max-width: 760px){
+        .sac{
+            width:100%;
+            height: 30%;
+        }
+    }
+    
+    .footer{
+    background-color: rgb(2, 64, 100); /* Cor dos direitos autorias*/
+    border-top: 4px solid #888888;
+    padding: 20px 0;
+    clear: both;
+    text-align: center;
+    color: #888;
+    }
+    
+
+
+    
+
+    .titu-prop{
+        color: red;
+        text-align: center;
+        background-color: rgb(1, 1, 66);
+        margin-top: -18px;
+        
+    }
+
+    .proposito{
+        background-color: rgb(182, 182, 182);
+        height: auto;
+        width: 100%;
+    }
+
+   .quemsou{
+       text-align: center;
+       border-bottom: solid;   
+       background-color: rgb(182, 182, 182);
+   }
+
+   .quem_sou{
+    background-color: rgb(182, 182, 182);
+   }
+
+   .formacao{
+    background-color: rgb(182, 182, 182);
+    height: auto;
+   }
+
+   .h1-formacao{
+       border: 2px solid;
+       text-align: center;
+       
+   }
+
+   .h3-formacao{
+       text-align: left;
+       list-style: armenian;
+       padding: 10px;
+   }
+
+   .cursos-feitos{
+       margin-left: 2px;
+   }
+
+   .exp{
+       text-align: center;
+   }
+
+   .exp-p{
+       padding: 10px;
+       letter-spacing: 1px;
+   }
+
+   .border-4{
+       border: 1px solid;
+   }
